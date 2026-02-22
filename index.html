@@ -3,78 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Full Name — Resume</title>
+  <title>Liyan — Resume</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
+
   <header class="site-header" role="banner">
-    <div class="container">
-      <h1 class="site-name">Full Name</h1>
-      <p class="site-role">Product Designer — Research & Strategy</p>
-      <nav class="site-nav" aria-label="Primary">
-        <a href="#about">About</a>
-        <a href="#experience">Experience</a>
+    <div class="container header-inner">
+      <div class="brand">
+        <a href="#home" class="site-name">Liyan</a>
+        <p class="site-role">Product Designer</p>
+      </div>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
         <a href="#projects">Projects</a>
+        <a href="#about">About</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
   </header>
 
-  <main id="main" class="container" role="main">
-    <section id="about" class="hero">
-      <h2 class="visually-hidden">Lead summary</h2>
-      <p class="lead">Concise one-sentence summary of who you are, what you do, and who you help. Two short supporting sentences with bullets for immediate evidence.</p>
+  <main id="main" role="main">
+    <section id="home" class="section container hero" aria-label="Home">
+      <h1 class="visually-hidden">Home</h1>
+      <p class="lead">I design simple, usable product experiences that help teams ship faster. I focus on research-driven decisions and clear communication.</p>
       <p><a class="btn" href="resume.pdf">Download Resume (PDF)</a></p>
     </section>
 
-    <section id="experience">
-      <h2>Experience</h2>
-      <article class="role">
-        <h3>Senior Designer — Company Name</h3>
-        <p class="meta">2020–Present • City</p>
-        <ul>
-          <li>Lead product design for X, resulting in Y.</li>
-          <li>Cross-functional collaboration with PMs & engineers.</li>
-        </ul>
-      </article>
-      <article class="role">
-        <h3>Previous Role — Employer</h3>
-        <p class="meta">2017–2020 • City</p>
-        <ul>
-          <li>Short achievement bullet.</li>
-        </ul>
-      </article>
-    </section>
-
-    <section id="projects">
+    <section id="projects" class="section container" aria-label="Projects">
       <h2>Selected Projects</h2>
       <ul class="projects">
         <li>
           <a class="project" href="#">
-            <h3>Project Name</h3>
-            <p class="project-excerpt">One-line summary and your role.</p>
+            <h3>Project One</h3>
+            <p class="project-excerpt">Redesigned onboarding funnel — Product Designer (mock)</p>
           </a>
         </li>
         <li>
           <a class="project" href="#">
-            <h3>Project Name</h3>
-            <p class="project-excerpt">One-line summary and your role.</p>
+            <h3>Project Two</h3>
+            <p class="project-excerpt">Design system foundations — Lead Designer (mock)</p>
           </a>
         </li>
       </ul>
     </section>
 
-    <section id="contact">
+    <section id="about" class="section container" aria-label="About">
+      <h2>About</h2>
+      <article class="role">
+        <h3>Experience</h3>
+        <p class="meta">Senior Designer — Acme Co. (2020–Present)</p>
+        <ul>
+          <li>Led redesign of core onboarding, improving activation (mock).</li>
+          <li>Worked with PMs and engineers to ship iterative releases (mock).</li>
+        </ul>
+      </article>
+      <article class="role">
+        <h3>Skills & Tools</h3>
+        <p class="meta">Figma · Miro · HTML/CSS · Research · Design systems (mock)</p>
+      </article>
+    </section>
+
+    <section id="contact" class="section container" aria-label="Contact">
       <h2>Contact</h2>
-      <p>Email: <a href="mailto:you@example.com">you@example.com</a></p>
-      <p>GitHub: <a href="https://github.com/username">github.com/username</a></p>
+      <p>Email: <a href="mailto:liyan@example.com">liyan@example.com</a></p>
+      <p>GitHub: <a href="https://github.com/liyan">github.com/liyan</a></p>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year">2026</span> Full Name — Built with static HTML & CSS for GitHub Pages.</p>
+      <p>© <span id="year">2026</span> Full Name — static HTML & CSS.</p>
     </div>
   </footer>
 </body>

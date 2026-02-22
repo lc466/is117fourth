@@ -50,5 +50,5 @@ Evidence / Receipts
 - Assumptions documented: Choosing "Typographic Resume" direction (Pattern A). Minimal JS; system fonts.
 
 Assumptions
-- User accepts the recommendation from earlier to use the Typographic Resume direction (Pattern A).
+- User accepts the recommendation from earlier to use the Typographic Resume direction (Pattern A) for Liyan.
 - `resume.pdf` is a placeholder and not provided in this sprint.

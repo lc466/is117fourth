@@ -1,6 +1,6 @@
 # Personal portfolio (static)
 
-This workspace contains a minimal static site scaffold for a Typographic Resume portfolio (Sprint 1).
+This workspace contains a minimal static site scaffold for a Typographic Resume portfolio (Sprint 1) for Liyan.
 
 Quick test:
 
